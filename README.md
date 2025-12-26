@@ -1,16 +1,44 @@
-# flutter_tap_rush_game_clean
+📱 Tap Rush Game – Flutter
 
-A new Flutter project.
+A lightweight Tap Rush style mini-game built with Flutter, designed as a clean architecture reference project.
+The project is fully modular, independent, and structured for learning, reuse, and scalability.
 
-## Getting Started
+✨ Key Features
 
-This project is a starting point for a Flutter application.
+Clean Architecture (data / domain / presentation layers)
 
-A few resources to get you started if this is your first Flutter project:
+Provider for state management
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Fully decoupled & reusable structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Optimized game loop and UI updates
+
+Zero jank during gameplay
+
+Tested with Flutter Performance Overlay
+
+No red frames observed during runtime
+
+Smooth animations and responsive tap mechanics
+
+Simple, extendable core suitable for other mini-games
+
+🎯 Purpose
+
+This project was created as:
+
+A reference implementation of clean architecture in Flutter
+
+A base project for mini-games or tap-based mechanics
+
+An educational resource for developers who want maintainable and performant Flutter apps
+
+🛠 Tech Stack
+
+Flutter
+
+Dart
+
+Provider
+
+Clean Architecture principles

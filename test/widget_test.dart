@@ -12,13 +12,13 @@ void main() {
     expect(find.text('TAP RUSH'), findsOneWidget);
 
     // Verify that start button exists
-    expect(find.text('OYUNA BAŞLA'), findsOneWidget);
+    expect(find.text('Start'), findsOneWidget);
 
     // Tap the start button
-    await tester.tap(find.text('OYUNA BAŞLA'));
+    await tester.tap(find.text('Start'));
     await tester.pumpAndSettle();
 
     // Verify that game has started (score should be visible)
-    expect(find.textContaining('Puan:'), findsOneWidget);
+    expect(find.textContaining('Score:'), findsOneWidget);
   });
 }

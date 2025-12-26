@@ -20,7 +20,7 @@ class ScoreHeader extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
-            'Puan: $score',
+            'Score: $score',
             style: const TextStyle(
               fontSize: 24,
               fontWeight: FontWeight.bold,

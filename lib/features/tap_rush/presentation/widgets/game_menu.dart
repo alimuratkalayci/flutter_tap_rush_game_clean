@@ -20,7 +20,7 @@ class GameMenu extends StatelessWidget {
         children: [
           if (isGameOver) ...<Widget>[
             Text(
-              'OYUN BİTTİ',
+              'Game Over',
               style: TextStyle(
                 fontSize: 48,
                 fontWeight: FontWeight.bold,
@@ -29,7 +29,7 @@ class GameMenu extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              'Puanınız: $score',
+              'Score: $score',
               style: TextStyle(
                 fontSize: 36,
                 color: Colors.white,
@@ -57,7 +57,7 @@ class GameMenu extends StatelessWidget {
               ),
             ),
             child: Text(
-              'OYUNA BAŞLA',
+              'Start',
               style: TextStyle(
                 fontSize: 24,
                 color: Colors.white,

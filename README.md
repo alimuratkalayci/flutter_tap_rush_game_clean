@@ -1,5 +1,8 @@
 📱 Tap Rush Game – Flutter
 
+![Tap Rush Gameplay](assets/tap_rush.gif)
+
+
 A lightweight Tap Rush style mini-game built with Flutter, designed as a clean architecture reference project.
 The project is fully modular, independent, and structured for learning, reuse, and scalability.
 
